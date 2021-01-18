@@ -2024,3 +2024,9 @@ html.no-csstransitions .home-content__main {
 .funt{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+div.home-content__clock div.time.seconds{
+  color: #1bb129;
+}
+div.home-content__clock div.time.seconds span{
+  color: #1bb129;
+}
