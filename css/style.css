@@ -35,12 +35,113 @@
 
 /* ------------------------
     General
-------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900');
-@import url('https://fonts.googleapis.com/css?family=Charm:400,700');
+------------------------*/ 
+/* baloo-2-regular - vietnamese_devanagari */
+@font-face {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/baloo-2-v1-vietnamese_devanagari-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-regular.svg#Baloo2') format('svg'); /* Legacy iOS */
+  }
+  
+  /* baloo-2-600 - vietnamese_devanagari */
+  @font-face {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/baloo-2-v1-vietnamese_devanagari-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/baloo-2-v1-vietnamese_devanagari-600.svg#Baloo2') format('svg'); /* Legacy iOS */
+  }
+  /* nunito-regular - vietnamese */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-v16-vietnamese-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/nunito-v16-vietnamese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/nunito-v16-vietnamese-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/nunito-v16-vietnamese-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/nunito-v16-vietnamese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/nunito-v16-vietnamese-regular.svg#Nunito') format('svg'); /* Legacy iOS */
+  }
+  
+  /* nunito-800 - vietnamese */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/nunito-v16-vietnamese-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/nunito-v16-vietnamese-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/nunito-v16-vietnamese-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/nunito-v16-vietnamese-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/nunito-v16-vietnamese-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/nunito-v16-vietnamese-800.svg#Nunito') format('svg'); /* Legacy iOS */
+  }
+ 
+  /* el-messiri-regular - cyrillic */
+@font-face {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/el-messiri-v8-cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/el-messiri-v8-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/el-messiri-v8-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/el-messiri-v8-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/el-messiri-v8-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/el-messiri-v8-cyrillic-regular.svg#ElMessiri') format('svg'); /* Legacy iOS */
+  }
+  
+  /* el-messiri-700 - cyrillic */
+  @font-face {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/el-messiri-v8-cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/el-messiri-v8-cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/el-messiri-v8-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/el-messiri-v8-cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/el-messiri-v8-cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/el-messiri-v8-cyrillic-700.svg#ElMessiri') format('svg'); /* Legacy iOS */
+  }
+  
+  /* montez-regular - latin */
+@font-face {
+    font-family: 'Montez';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montez-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montez-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montez-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montez-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montez-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montez-v11-latin-regular.svg#Montez') format('svg'); /* Legacy iOS */
+  }
+  
 
-body {font-family: 'Heebo', sans-serif; font-weight: normal; font-style: normal; font-size: 15px; line-height: 1.5; color:#5f5f5f; letter-spacing: 1px;}
+body {font-family: 'Nunito', sans-serif; font-weight: normal; font-style: normal; font-size: 15px; line-height: 1.5; color:#5f5f5f; letter-spacing: 1px;}
 
+/* Color Variants */
+:root{
+    --pri-color: #ff4500;  
+    --acn-color: #21af2d; 
+}
+/* End of Color Variants */
 
 /* ------------------------
     Typography
@@ -289,16 +390,7 @@ iframe{width: 100%; border: none; pointer-events: auto;}
 #svg-container {position: absolute; width: 100%; left: 52%;  z-index: -1; transform: translateX(-50%); width: 75%;}
 #svgC {margin: 0 auto; width: 100%;}
 
-
-/* ------------------------
-    Spinner
-------------------------*/
-.spinner-eff {position: absolute; width: 200px; height: 200px; bottom: 0;}
-.spinner-eff .spinner-circle {border-radius: 100px; position: absolute; left: 0; right: 0; margin: auto; transform: scale(1); transform-origin: center center;}
-.spinner-eff .circle-1 {width: 100%; height: 100%; background-color: #60f691;  top: 0; animation: pulse 1.6s linear 0s infinite;}
-.spinner-eff .circle-2 {width: 66.6%; height: 66.6%; background-color: #0cca4a; top: 16.5%; animation: pulse-2 1.6s linear 0s infinite;}
-
-
+ 
 /* ------------------------
     Hexagon
 ------------------------*/
@@ -324,9 +416,9 @@ iframe{width: 100%; border: none; pointer-events: auto;}
 .timeline-right {margin-left: 50%;}
 .timeline-content {padding: 20px 30px; background: #ffffff; position: relative; border-radius: 7px;}
 .timeline-content h3{font-size: 20px; color: #1c1d3e; font-weight: bold;}
-.timeline-inner::before {content: ""; display: block; position: absolute; top: 0; right: -16px; margin: auto; height: 32px; width: 32px; border: 3px solid #2575fc; border-bottom: 3px solid transparent !important; border-radius: 50%; z-index: 9; background: #ffffff;
+.timeline-inner::before {content: ""; display: block; position: absolute; top: 0; right: -16px; margin: auto; height: 32px; width: 32px; border: 3px solid var(--pri-color); border-bottom: 3px solid transparent !important; border-radius: 50%; z-index: 9; background: #ffffff;
 -webkit-animation: loader-3-1 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite; animation: loader-3-1 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;}
-.timeline-inner::after {content: ""; position: absolute; top: 0; right: -3px; margin: auto; width: 6px; height: 6px; background: #005bea; border-radius: 50%; z-index: 9;
+.timeline-inner::after {content: ""; position: absolute; top: 0; right: -3px; margin: auto; width: 6px; height: 6px; background: var(--acn-color); border-radius: 50%; z-index: 9;
 -webkit-animation: loader-3-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite; animation: loader-3-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;}
 .timeline-right.timeline-inner::before{right: inherit; left: -16px;}
 .timeline-right.timeline-inner::after{right: inherit; left: -3px;}
@@ -350,17 +442,51 @@ iframe{width: 100%; border: none; pointer-events: auto;}
 
 
 /* Custom Webpage Edits Rulesets */
+
+ 
+/* Site Header Navigation */
 header#site-header #header-wrap .container{ 
     max-width: 1450px;
 } 
 .navbar-nav .nav-link{ 
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive; 
     font-size: 1.15rem;
 }
 .navbar .btn{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive; 
     font-size: 1.1rem;  
 }
+#site-header a.nav-link.active,
+#site-header a.nav-link:hover{
+    color: var(--pri-color);
+} 
+
+#site-header a.btn.btn-theme.btn-sm{
+    background: linear-gradient(90deg, rgb(234, 125, 0) 0%, rgb(255, 115, 0) 80%);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;   
+}
+#site-header a.btn.btn-theme.btn-sm.green{
+    background:  var(--acn-color); 
+    width: 120px;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -9px;
+}
+#site-header a.btn.btn-theme.btn-sm:hover{
+    transform: translateY(0);
+}
+#site-header .navbar-toggler span{
+  background-color: var(--pri-color);
+}
+
+
+/* End of Site Header Navigation */
+
 section#showcase{
     position: relative;
     height: 90vh;
@@ -369,10 +495,7 @@ section#showcase{
 }  
 #showcase .slide-one,
 #showcase .slide-two,
-#showcase .slide-three,
-#showcase .slide-four,
-#showcase .slide-five,
-#showcase .slide-six{ 
+#showcase .slide-three{ 
     height: 90vh;
 } 
 #show-case .carousel-item{
@@ -385,7 +508,7 @@ section#showcase{
     position: relative;
 }
 .holding{
-    background: url(/images/Bishtrade\ Banner1b.png) no-repeat center;
+    background: url(/images/Bishtrade\ Banner1c.png) no-repeat center;
     background-size: cover; 
     height: 100%;
     display: flex;
@@ -394,33 +517,21 @@ section#showcase{
     padding: 10px 0;
 } 
 .slide-two .holding{
-    background: url(/images/Bishtrade\ Banner2a.png) no-repeat center;
+    background: url(/images/Bishtrade\ Banner4b.png) no-repeat center;
     background-size: cover;
 }
 .slide-three .holding{
-    background: url(/images/Bishtrade\ Banner3a.png) no-repeat center;
+    background: url(/images/Bishtrade\ Banner6b.png) no-repeat center;
     background-size: cover;
-} 
-.slide-four .holding{
-    background: url(/images/Bishtrade\ Banner4a.png) no-repeat center;
-    background-size: cover;
-} 
-.slide-five .holding{
-    background: url(/images/Bishtrade\ Banner6a.png) no-repeat center;
-    background-size: cover;
-} 
-.slide-six .holding{
-    background: url(/images/Bishtrade\ Banner5a.png) no-repeat center;
-    background-size: cover;
-} 
+}  
 .cta{ 
-    background-color: black;
+    background-color: var(--acn-color);
     color: #fff; 
     padding: 10px 35px;   
     border-radius: 5px; 
     margin-right: 50px;
     display: inline-block;
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive; 
     font-weight: 600;
     font-size: 1.1rem;
 } 
@@ -428,20 +539,22 @@ section#showcase{
     background-color: orangered; 
     margin-right: 0; 
 }
+.cta:hover{
+    color: var(--pri-color);
+}
 .cta.orange:hover{
     background-color: transparent;
     border: 1px solid orangered; 
+    color: var(--pri-color);
 }
 /* CTA Rulesets */
-section#home #revolution h5{
-    font-family: 'Montez', cursive;
+section#home #revolution h5{  
     text-transform: unset;
     font-size: 1.7rem;
     color: #fff;
-    font-weight: 900;
+    /* font-weight: 900;  */
 }
-section#home #revolution p{
-    font-family: 'Baloo Chettan 2', cursive; 
+section#home #revolution p{ 
     font-family: 'Nunito', sans-serif;
     text-align: justify; 
     color: #333;
@@ -449,21 +562,25 @@ section#home #revolution p{
 section#home #revolution h1{ 
     font-size: 2.5rem;
     line-height: 3rem;
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive;  
     margin-bottom: .2rem !important;
 }
 section#home #revolution .cta{
     margin-top: 20px;
     border-radius: 50px;
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive; 
 }
 section#steps h2{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive; 
     font-size: 2rem; 
 }
 section#steps h4{
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive; 
     font-size: 1.5rem; 
+    color: var(--pri-color);
+}
+section#steps .step-num{
+    color: var(--pri-color);
 }
 section#steps p{
     font-family: 'Nunito', sans-serif;
@@ -489,7 +606,20 @@ section#steps .chat-guide:hover a.cta.orange{
     border: none; 
 } 
 section#steps .chat-guide i{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-right: 7px;
+}
+section#steps .step-icon span{   
+    color: #fff;
+    text-shadow: 0 0 15px #00f3ff,
+                 0 0 25px #00f3ff,
+                 0 0 35px #00f3ff,
+                 0 0 45px #00f3ff,
+                 0 0 55px #00f3ff,
+                 0 0 60px #00f3ff,
+                 0 0 65px #00f3ff,
+                 0 0 70px #00f3ff,
+                 0 0 100px #00f3ff;
 }
 /* End of CTA Rulesets */
 
@@ -550,10 +680,18 @@ section#estate{
     position: relative;
   } 
   #estate h1{ 
-    font-family: 'Baloo Chettan 2', cursive;
+    /* font-family: 'Baloo Chettan 2', cursive; */
+    font-family: 'Nunito', sans-serif;
     font-weight: 300;
-    font-size: 2.9rem;
+    font-size: 2.5rem;
   }
+  #estate h1 span{ 
+    color: var(--pri-color);
+  }
+  .text-theme,
+  #countee #count span.count-number{
+      color: var(--pri-color);
+  } 
   #estate #container .card .box .content h2{
     position: absolute;
     top: -10px;
@@ -579,14 +717,14 @@ section#estate{
     transition: 0.5s;
   } 
   #estate h4{ 
-      font-family: 'Baloo Chettan 2', cursive;
-      font-size: 1.1rem;
+      font-family: 'Baloo 2', cursive; 
+      letter-spacing: unset;
+    font-size: 1.1rem;
       color: dodgerblue;
   }
   
-  #estate .card:hover h4{  
-      color: #ff512f;
-      color: orangered;
+  #estate .card:hover h4{   
+      color: orangered; 
   }
   #estate > p{ 
       padding: 20px 12% 0;
@@ -618,7 +756,7 @@ section#estate{
     text-decoration: none;
     font-weight: 600;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    font-family: 'Baloo Chettan 2', cursive;
+    font-family: 'Baloo 2', cursive; 
   }
   #estate #container .card:hover .box .content a{ 
     background: #ff512f;
@@ -628,13 +766,220 @@ section#estate{
 
 /* End of Pacakges Ruleset */
 
+/* Products Section Ruleset */
+#products-section{
+    background: #f0f0f0;
+    padding: 60px 0; 
+  }
+  .section-title{
+    margin-bottom: 25px;
+  }
+  #products-section .section-title h2.highlight{
+    position: relative;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 1;
+    text-transform: capitalize;
+    display: block;
+    text-align: center; 
+  }
+  .single-product{
+    box-shadow: inset -2px -2px 8px white,
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+  
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+  
+  }
+  .single-product .product-thumb{
+    margin-bottom: 20px;
+  }
+  img{
+    display: inline-block;
+    max-width: 100%;
+  
+  }
+  .single-product .product-title{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .single-product .product-title h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: unset;
+    text-transform: unset;
+  }
+  .single-product .product-title h3 a{
+    color: #292929; 
+    color: dodgerblue; 
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .single-product .product-title h3 a:hover{
+    color: #7289ab;
+  }
+  .single-product:hover{
+    box-shadow: -2px -2px 8px white,
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+          inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0, 0, 0, 0.15); 
+  }
+  .product-btns{
+    display: flex;
+    justify-content: center;
+  }
+ .product-btns a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #292929;
+    font-family: 'Nunito', sans-serif;
+  }
+  .btn-small{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 32px;
+    border-radius: 50px;
+    box-shadow: inset -2px -2px 8px white,
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+  }
+  .btn-round{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: -2px -2px 8px white,
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+          inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0, 0, 0, 0.15); 
+  }
+  .btn-small:hover{
+    box-shadow: -2px -2px 8px white,
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+          inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0, 0, 0, 0.15); 
+    color: #7289ab;
+    color: dodgerblue;
+    text-decoration: none;
+  }
+  .btn-round:hover{
+    box-shadow: -2px -2px 8px white,
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+    color: #7289ab;
+    color: var(--pri-color);
+  
+  }
+  .button-center{ 
+    justify-content: center;
+    align-items: center;
+  }
+  .button-center .centered{ 
+    text-align: center;
+  }
+  .bttn-def{ 
+    font-family: 'Baloo 2' cursive;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 14px 42px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: -2px -2px 8px white,
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+          inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+  }
+  .bttn-def:hover{
+    color: #7289ab;
+    color: var(--pri-color);
+    box-shadow: inset -2px -2px 8px white,
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  .bttn-def:hover span{
+    display: inline-block;
+    transform: scale(0.98);
+  }
+/* End of Products Section Ruleset */
+
+/* Housing Section */
+section#housing{ 
+  width: 85%;
+  margin: 0 auto;
+}
+section#housing h2{
+  text-transform: unset;
+  font-family: 'Baloo 2', cursive;
+  font-size: 2.4rem;
+  line-height: 1;
+}
+section#housing h2 span{
+  color: var(--pri-color);
+}
+/* End of Housing Section */
+
 /* ^^^^^^^^^ ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
+section#about h2{
+  font-family: 'Baloo 2' cursive;
+  font-size: 1.85rem;
+  line-height: 1.2;
+  font-weight: 500;
+  text-transform: unset;
+}
 section#about h6 span{
     color: orangered;
 }
-section.service.pos-r{
+section#about .img-center{
+  width: 100%;
+  object-fit: cover;
+}
+section#about .box-loader span{
+  background: var(--pri-color);
+}
+#about-page{
     background: url(/images/slide2.jpg) no-repeat center center;
+    background-size: cover;
     background-attachment: fixed;
+}
+#about-page i{
+  color: var(--pri-color);
+}
+#timeline h2{
+  color: var(--pri-color);
+  text-transform: uppercase;
+}
+#news h2 span{
+  color: var(--pri-color);
+}
+#news i{
+  color: var(--pri-color);
+}
+#news h4 a{
+  font-size: 1rem;
+  font-weight: 600;
 }
 /* ^^^^^^^^^ END OF ABOUT PAGE RULESET ^^^^^^^^^^^^^^ */
 
@@ -650,21 +995,32 @@ section#faq{
 section#faq .mr-auto{   
     height: 60px;
 } 
+section#faq a{
+  background: var(--pri-color);
+  color: #fff;
+}
+section#faq a span::before,
+section#faq a span::after{
+  background-color: rgb(166, 207, 250);
+}
 /* ^^^^^^^^^ End of FAQ Page Ruleset ^^^^^^^^^^^^^^ */
 
 /* ^^^^^^^^^ Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
  section#testimonial-title{
      padding: 40px 0;
  } 
+ section#testimonial-title .title span{
+   color: var(--pri-color);
+ }
  section#testim{ 
      padding: 20px 0;
  }
- section#testim h2{
-     font-family: 'Baloo Chettan 2', cursive;
- }
- section#testim h5{
-     font-family: 'Baloo Chettan 2', cursive;
- }
+ section#testim h2{ 
+     font-family: 'Nunito', sans-serif;
+    }
+ section#testim h5{ 
+     font-family: 'Nunito', sans-serif; 
+    }
  section#testim p{
      font-family: 'Nunito', sans-serif;
      /* font-weight: 600; */
@@ -679,17 +1035,16 @@ section#faq .mr-auto{
 .testimonial.style-3 p,
 .testimonial.style-5 p
 {
-    font-family: 'Nunito', sans-serif;
-    /* font-weight: 300; */
+    font-family: 'Nunito', sans-serif; 
 }
-
+#testim .fas{
+    transform: rotate(180deg);
+}
 /* ^^^^^^^^^ End of Testimonials Page Ruleset ^^^^^^^^^^^^^^ */
 
 /* Countee Ruleset */
-section#countee .count-number{ 
-    font-family: 'Baloo Chettan 2', cursive;
-    font-family: 'El Messiri', sans-serif; 
-
+section#countee .count-number{  
+    font-family: 'El Messiri', sans-serif;  
 }
 section#countee h5{ 
     font-family: 'Nunito', sans-serif;
@@ -715,10 +1070,16 @@ footer{
     font-family: 'Nunito', sans-serif;
 }
 #footer-icon li{ 
-    display: flex;
+    display: flex; 
+    align-items: center;
+}
+#footer-icon p,
+#footer-icon a{
+  font-size: .8rem;
+  line-height: 1.3;
 }
 #footer-icon li i{  
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 10px; 
     line-height: 30px; 
     color: orangered;
@@ -750,9 +1111,58 @@ footer.footer{
     color: limegreen;
 }
 
-footer#footer .la.la-whatsapp{
+footer#footer .fa-whatsapp{
     color: #21af2d;
+    margin-top: -5px;
 }
 /* End of Footer Ruleset */
+
+/* *******-MEDIA QUERIES-*********** */
+section#site-header #green{
+    background: #21af2d;
+}
+@media screen and (max-width: 991px){
+    .hide-mobile{
+        display: none; 
+      }
+      
+}
+@media screen and (min-width: 991px){
+    .hide-desktop{
+        display: none; 
+      }
+      
+}
+@media screen and (max-width: 769px){
+  .holding{
+    background: url(/images/Small\ Banner2.png) no-repeat center;
+    background-size: cover; 
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px 0;
+} 
+.slide-two .holding{
+    background: url(/images/Small\ Banner1.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.slide-three .holding{
+    background: url(/images/Small\ Banner3.png) no-repeat center;
+    background-size: cover;
+}  
+}
+@media screen and (max-width: 400px){
+  a.cta.orange{
+    display: none;
+  }
+  a.cta{
+    margin: 0 auto 20px;
+    display: block;
+  } 
+}
+
+/* *******-END OF MEDIA QUERIES-*********** */
  
 /* End of Custom Webpage Edits Rulesets */ 
