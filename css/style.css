@@ -645,7 +645,7 @@ section#estate{
   #estate #container .card{
     position: relative;
     min-width: 330px;
-    height: 500px;
+    height: 520px;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
                 inset -5px -5px 5px rgba(255, 255, 255, 0.5),
                 5px 5px 5px rgba(0, 0, 0, 0.05),
@@ -693,13 +693,23 @@ section#estate{
   } 
   #estate #container .card .box .content h2{
     position: absolute;
-    top: -10px;
+    top: 10px;
     right: 30px;
     font-size: 8em;
     color: rgba(0, 0, 0, 0.02);
     transition: 0.5s;
     pointer-events: none;
     font-family: 'El Messiri', sans-serif;  
+  }
+  #estate #container .card:first-of-type .box .content h2{ 
+    top: 15px; 
+  }
+  #estate #container .card:nth-of-type(4) .box .content h2
+  { 
+    top: 0; 
+  }
+  #estate #container .card:nth-of-type(5) .box .content h2{
+    top: -2px;
   }
   #estate #container .card:hover .box .content h2{
     color: rgba(0, 0, 0, 0.05);
