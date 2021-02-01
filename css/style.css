@@ -1107,6 +1107,7 @@ footer.footer{
 } 
 footer .secondary-footer span{
   color: #aabfdb; 
+  font-size: .8rem;
 }
 footer .secondary-footer span span{
   color: #5199EB; 
